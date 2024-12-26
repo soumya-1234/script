@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             // Define IDs for the elements
             var featureCollectionId = '1featured_collection';
-            var divId = 'video-shorts-414755f7-5c92-4588-903f-78e9333857e0';
+            var divId = 'video-shorts-e67c8832-90fd-47e8-94e2-1b5f06d8f6a1';
 
             // Get the container element with class 'content'
             var contentContainer = document.querySelector('.content');
@@ -71,13 +71,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 try {
                     if (typeof saleassistVideoTiles !== 'undefined' && typeof saleassistVideoTiles.mountWidget === 'function') {
                         var widget = saleassistVideoTiles.mountWidget({
-                            id: "414755f7-5c92-4588-903f-78e9333857e0",
+                            id: "e67c8832-90fd-47e8-94e2-1b5f06d8f6a1",
                             width: "225px",
                             height: "400px",
                             borderRadius: "rounded",
                             type: "tile"
                         });
-                        console.log(`Widget with ID '414755f7-5c92-4588-903f-78e9333857e0' mounted.`);
+                        console.log(`Widget with ID 'e67c8832-90fd-47e8-94e2-1b5f06d8f6a1' mounted.`);
                     } else {
                         console.error('saleassistVideoTiles or mountWidget function is not available.');
                     }
@@ -92,9 +92,9 @@ document.addEventListener('DOMContentLoaded', function() {
             try {
                 if (typeof saleassistVideoTiles !== 'undefined' && typeof saleassistVideoTiles.mountSourceVideo === 'function') {
                     saleassistVideoTiles.mountSourceVideo({
-                        id: "414755f7-5c92-4588-903f-78e9333857e0",
+                        id: "e67c8832-90fd-47e8-94e2-1b5f06d8f6a1",
                     });
-                    console.log(`Source video with ID '414755f7-5c92-4588-903f-78e9333857e0' mounted.`);
+                    console.log(`Source video with ID 'e67c8832-90fd-47e8-94e2-1b5f06d8f6a1' mounted.`);
                 } else {
                     console.error('saleassistVideoTiles or mountSourceVideo function is not available.');
                 }
